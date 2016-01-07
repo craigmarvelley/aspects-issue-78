@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0" />
+        
+        <style type="text/css">
+            * {
+                outline: 0px solid transparent;
+                -webkit-tap-highlight-color: rgba(0,0,0,0);
+                -webkit-touch-callout: none;
+            }
+            html, body {
+                padding: 10px 0;
+                margin: 0;
+                font-family: 'Helvetica Neue', Helvetica, sans-serif;
+            }
+            html {
+                height: 100%;
+            }
+            
+            body {
+                line-height: 1.35;
+                padding: 10px;
+                min-height: 100%;
+            }
+        </style>
+        
+        
+    </head>
+    <body>
+        <div id="editor" contenteditable="true">
+            <p>To replicate the issue</p>
+            <p>Tap some text to bring up the keyboard</p>
+            <p>Dismiss the toolbar</p>
+            <p>Then tap the text again</p>
+            <p>You should get a crash</p>
+        </div>
+    </body>
+</html>
